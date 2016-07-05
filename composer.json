@@ -15,10 +15,21 @@
         }
     ],
     "bin"        : ["bin/protobuf"],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/marjanmic/protobuf"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/marjanmic/google-protobuf-proto"
+        }
+
+    ],
     "require"    : {
         "php"                                : ">=5.5.0",
-        "protobuf-php/protobuf"              : "~0.1@dev",
-        "protobuf-php/google-protobuf-proto" : "~0.1@dev",
+        "protobuf-php/protobuf"              : "master",
+        "protobuf-php/google-protobuf-proto" : "master",
         "zendframework/zend-code"            : "^2.6-dev",
         "psr/log"                            : "^1.0",
         "symfony/console"                    : "^3.1.2",
