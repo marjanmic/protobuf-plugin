@@ -18,7 +18,7 @@
 
     "require"    : {
         "php"                                : ">=5.5.0",
-        "marjanmic/protobuf"              : "~0.1@dev",
+        "protobuf-php/protobuf"              : "~0.1@dev",
         "protobuf-php/google-protobuf-proto" : "~0.1@dev",
         "zendframework/zend-code"            : "^2.6-dev",
         "psr/log"                            : "^1.0",
